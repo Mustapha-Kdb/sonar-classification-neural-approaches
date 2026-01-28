@@ -6,13 +6,13 @@ This repository explores the fundamentals of neural computation through the impl
 
 The project is divided into two main notebooks:
 
-### 1. Perceptron Fundamentals (`TP1.ipynb`)
+### 1. Perceptron Fundamentals (`1_Perceptron_Theory.ipynb`)
 This notebook focuses on the algorithmic behavior of the Perceptron using synthetic data generated via a **Teacher-Student** framework.
 * **Algorithms:** Implementation of **Online Perceptron** (Stochastic) vs. **Batch Perceptron**.
 * **Convergence Analysis:** Evaluation of the "Overlap" ($R$) between the student and teacher weight vectors.
 * **Visualization:** Graphical plotting of decision boundaries and error rates relative to the number of dimensions ($N$) and training examples ($P$).
 
-### 2. Sonar Signal Classification (`Tp2.ipynb`)
+### 2. Sonar Signal Classification (`2_Sonar_Classification.ipynb`)
 A transition to real-world data using the **Sonar Dataset**, which consists of 208 patterns (111 metal cylinders and 97 rocks) obtained by bouncing sonar signals off surfaces at various angles.
 * **Data Engineering:** Custom parsing of sonar signal files and binary label encoding.
 * **Model Optimization:** Implementation of a **Batch Perceptron** with robustness features.
